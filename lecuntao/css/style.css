@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+.margin{ width:1200px; margin:0 auto;}
+
+/* 顶部 */
+
+#top{ height: 32px; border-bottom: 1px solid #e7e7e7; background: #f1f1f1;}
+#top h2{float: left;font: 12px/32px "微软雅黑";color: #666;}
+#top ul{float: right;line-height: 32px;}
+#top ul li{float: left;width: 80px;text-align: center;height:32px; line-height: 32px;position: relative;}
+#top ul li b{ position: absolute;right: 0; top: 0; color: #dfdfdf;font-weight: bold;}
+/* top——li中的箭头旋转以及li的样式 */
+#top ul li:hover i{transform:rotate(180deg); transform-origin: 50% 48%; transition: .2s;} 
+#top ul li a{font: 12px/22px "";color: #666;line-height: 32px;}
+#top ul li a i{width: 13px; height: 13px;display: inline-block;
+margin-left: 3px; background: url(../images/isprite.png?v=860d90f686) 4px 4px no-repeat;vertical-align: middle;}
+#top ul li .dl{width: 79px; background: #fff; position: absolute;left: -1px; top: 32px; border: 1px solid #f0f0f0;border-top-color:#fff ;z-index: 2;}
+/* top——手机乐村淘 */
+#top ul li .app{position: absolute;width: 540px;height: 196px;top:32px;left: -310px;overflow: hidden;border:1px solid #F0F0F0;border-top-color: #fff;background:#fff ;z-index: 3;}
+#top ul li .app p{float: left;width: 180px; margin: 17px 0 0;}
+
+/* top——网站导航 */
+#top ul li .smap{width: 1200px; border: 1px solid #f0f0f0;padding: 14px 0 15px;position: absolute;top: 32px; right: -1px;background-color:#fff;z-index: 10;}
+#top ul li .smap dl{width: 278px;float: left;border-right: 1px solid #f0f0f0;margin-left: 20px;}
+#top ul li .smap dl.smap-r{border-right: none;}
+#top ul li .smap dl dt{color: #333;font-size: 16px;text-align: center;line-height: 34px;}
+#top ul li .smap dl dd .item{width: 86px;float: left;}
+
+
+/* 搜索栏 */
+#search{height:120px;position: relative;}
+#search .logo{width: 240px; height: 117px; float: left;}
+/*search—— 切换省份 */
+#search .area{width: 84px; float: left; text-align: center;padding-top: 37px;}
+#search .area dt{line-height: 26px; height: 26px;font:700 16px/26px "";color: #000;}
+#search .area dd{width: 61px; height: 21px; border: 1px solid #e5e5e5; display: inline-block;position: relative;background-color: #fff;text-align: center;}
+#search .area dd li{width: 59px; line-height: 34px; float: left;text-align: center;}
+#search .area dd a{width: 61px; height: 21px; color: #a0a0a0;margin-top: 4px;display: block;}
+#search .area dd ul area-a{width: 61px; height: 21px;color: #333;}
+/* search——搜索框 */
+#search .search-c{width: 368px;padding-top: 30px;float: left;margin-left: 58px;}
+#search .search-c .inp{width: 368px;float: left;height: 34px;}
+#search .search-c .inp .txt{border:1px solid #e60012;width: 255px; height: 32px;font: 12px/32px ""; outline: none;background: url(../images/search.png) 12px 7px no-repeat;padding-left: 41px;float: left;}
+#search .search-c .inp .goods{width: 70px; height: 34px;background:#e60012;border: none;float: left;font: 12px/34px "";color: #fff;cursor: pointer;}
+#search .search-c .search-c-m{height: 34px;float: left;}
+#search .search-c .search-c-m .shop{float: left;width: 70px; height: 34px; line-height: 34px; font: 14px/34px "";color: #fff;border: none;cursor: pointer;background: #666;}
+#search .search-c .search-c-b{height: 22px;float: left;width: 368px;}
+#search .search-c .search-c-b a{margin-right: 15px;color: #999;font: 12px/22px "宋体";}
+/* search——购物车 */
+#search .car{width: 138px; height: 32px;line-height: 32px;border: 1px solid #dfdfdf;background-color: #f9f9f9f; float: left;position: relative;margin:30px 30px 0 90px;}
+#search .car b{width: 18px; height: 14px;line-height: 14px;overflow: hidden;position: absolute;text-align: center;right: 18px;top: -3px;color: #fff;background: url(../images/isprite.png) -19px 0px no-repeat;}
+#search .car .buy{width: 92px; height: 32px;display: block;padding-left: 46px;background: url(../images/isprite.png) -459px 8px no-repeat;}
+#search .car .buy i{width: 15px; height: 32px; display: inline-block;vertical-align: middle;background: url(../images/isprite.png) -33 -17 no-repeat;}
+#search .car .list{width: 318px;position: absolute;right: -1px;top: 32px;border: 1px solid #f0f0f0;background-color: #fff;z-index: 3;}
+#search .car .list-t{padding-left: 8px;height: 36px;line-height: 36px;font-weight: bold;color: #333;font-size: 12px;text-align: left;}
+#search .car .list-b{padding-left: 8px;height: 44px;line-height: 44px;width: 310px;color: #333;font: 12px;background: #f5f5f5;}
+#search .car .list-b span{display: inline-block;;float: left;margin-right: 14px;}
+#search .car .list-b .list-b-t{width: 69px; height: 29px;line-height: 29px;background: #eb0000;float: right;margin:7px 7px 0 0;border-radius: 2px;text-align: center;}
+#search .car .list-b .list-b-t a{color: #fff;}
+/* search——旗帜flag */
+#search .flag{position: absolute;right: 0px;top: 8px;}
+#search .flag img{vertical-align: bottom;}
+
+
+/* nav */
+#nav{height: 43px;border-bottom: 2px solid #E60012;}
+#nav .nav-t{height: 43px;position: relative;}
+#nav .nav-t .nav-t-b{width: 212px;position: absolute;left: 0;top: 0;z-index: 3;}
+#nav .nav-t .nav-t-b dt{height: 43px;background-color: #f32613;padding-bottom: 2px;font-size: 16px;}
+#nav .nav-t .nav-t-b dt a{width: 196px; height: 43px; line-height: 43px;display: block;padding-left: 16px;color: #fff;}
+#nav .nav-t .nav-t-b dt .menu{width: 21px;height: 43px;display: inline-block;vertical-align: middle;margin-right: 10px;background: url(../images/isprite.png) -59px 15px no-repeat;}
+#nav .nav-t .nav-t-b dd{height: 44px;background: #dd0c1d;border-bottom: 1px solid #e02e3c;position: relative;z-index: 2;}
+#nav .nav-t .nav-t-b dd a{padding-left: 16px;font-size: 13px;color: #fff;font-weight: bold;display: inline-block;height: 44px;line-height: 44px;}
+#nav .nav-t .nav-t-b dd a .left{display: inline-block;width: 22px; height: 22px;vertical-align: middle;padding-top: 12px;margin-right: 15px;float: left;}
+#nav .nav-t .nav-t-b dd a .left b{vertical-align: top;display: inline-block;width:22px;height: 22px;}
+#nav .nav-t .nav-t-b dd a .right{width: 8px; height: 8px;display: inline-block;position: absolute;right: 14px;top: 19px;background: url(../images/isprite.png) -495px -379px no-repeat;}
+#nav .nav-t .nav-t-b dd a .left .left1{background: url(../images/isprite.png) no-repeat;background-position: -108px 0px;}
+#nav .nav-t .nav-t-b dd a .left .left2{background: url(../images/isprite.png) no-repeat;background-position: -397px 0px;}
+#nav .nav-t .nav-t-b dd a .left .left3{background: url(../images/isprite.png) no-repeat;background-position: -302px -33px;}
+#nav .nav-t .nav-t-b dd a .left .left4{background: url(../images/isprite.png) no-repeat;background-position: -208px 0px;}
+#nav .nav-t .nav-t-b dd a .left .left5{background: url(../images/isprite.png) no-repeat;background-position: -154px 0px;}
+#nav .nav-t .nav-t-b dd a .left .left6{background: url(../images/isprite.png) no-repeat;background-position: -205px -34px;}
+#nav .nav-t .nav-t-b dd a .left .left7{background: url(../images/isprite.png) no-repeat;background-position: -351px 0px;}
+#nav .nav-t .nav-t-b dd a .left .left8{background: url(../images/isprite.png) no-repeat;background-position: -255px 0px;}
+#nav .nav-t .nav-t-b dd a .left .left9{background: url(../images/isprite.png) no-repeat;background-position: -158px -35px;}
+#nav .nav-t .nav-t-b dd a .left .left10{background: url(../images/isprite.png) no-repeat;background-position: -108px -36px;}
+#nav .nav-r{width: 960px;float: left;margin-left: 216px;}
+#nav .nav-r li{float: left;line-height: 43px;height: 43px;font-size: 16px;padding: 0 18px;}
+#nav .nav-r li .index{color: #e60012;}
+#nav .nav-r li a{color: #000;}
+
+
+/* banner */
+#banner{overflow: hidden;}
+.swiper-container {width: 768px;height: 485px;}
+.swiper-slide { text-align: center;font-size: 18px;}
+#banner .banner-l{width: 768px; height: 485px; margin:10px 10px 0 222px;overflow: hidden;position:absolute ;}
+
+#banner .banner-r{width: 200px;float: right;padding-top: 10px;}
+#banner .banner-r-t,#banner .banner-r-m{margin-bottom: 10px;width: 198px;border: 1px solid #e9e8ed;background-color: #f9f9f9;}
+#banner .banner-r .banner-r-t .banner-r-t-t{width: 178px;display: table;padding: 11px 10px 16px 10px;position: relative;}
+#banner .banner-r .banner-r-t .banner-r-t-t .photo{width: 50px;height: 50px;margin-right: 10px;float: left;}
+#banner .banner-r .banner-r-t .banner-r-t-t .welcome{padding-top: 5px;float: left;}
+#banner .banner-r .banner-r-t .banner-r-t-t .welcome h2{margin-right: 8px;font-size: 14px;color: #e60012;}
+#banner .banner-r .banner-r-t .banner-r-t-t .welcome span{display: inline-block;font: 12px/2 "";}
+#banner .banner-r .banner-r-t .banner-r-t-b{width: 176px;padding: 0 11px;display: table;font-size: 14px;margin: 0 auto 15px auto;}
+#banner .banner-r .banner-r-t .banner-r-t-b .log{width: 83px; height: 24px;line-height: 24px;border: 1px solid #e60012;background-color: #e60012;color: #fff;text-align: center;display: inline-block;float: left;border-radius: 3px;}
+#banner .banner-r .banner-r-t .banner-r-t-b .reg{width: 83px; height: 24px;line-height: 24px;border: 1px solid #dfdfdf;display: inline-block;text-align: center;float: right;border-radius: 3px;}
+
+
+
+#banner .banner-r-m .more{width: 170px;padding: 0 14px;height: 35px;border-bottom: 1px dashed #e0e0e0;}
+#banner .banner-r-m .more .more-l{height: 35px;line-height:35px;font-size: 14px;float: left;}
+#banner .banner-r-m .more .more-l a{color: #e60012;}
+#banner .banner-r-m .more .more-r{height: 36px;line-height: 35px;float: right;font-size: 12px;}
+#banner .banner-r-m .more .more-r a:hover{color: #e60012;cursor: pointer;}
+#banner .banner-r-m .more .more-r a i{width: 9px; height: 35px;display: inline-block;vertical-align: middle;background: url(../images/isprite.png) -39px -16px no-repeat;}
+#banner .banner-r-m .adv{width: 176px;padding: 6px 8px 8px 14px;text-overflow: clip;}
+#banner .banner-r-m .adv li{height: 31px;font: 12px/1.5px "宋体";line-height: 35px;}
+#banner .banner-r-m .adv li span{margin-right: 7px;}
+#banner .banner-r-m .adv li:hover a{color: #e60012;}
+
+
+#banner .banner-r-b {width: 198px;padding-left: 1px;border-top: 1px solid #e9e8ed;border-right:1px solid #e9e8ed;background-color: #fff;display: table;}
+#banner .banner-r-b li{width: 63px;height: 68px;float: left;padding-left: 1px;border-left: 1px solid #e9e8ed;border-bottom:1px solid #e9e8ed;}
+#banner .banner-r-b li a{height: 28px;line-height: 28px;text-align: center;padding-top: 40px;display: block;}
+#banner .banner-r-b li a.app1{background: url(../images/isprite.png) 22px -57px no-repeat;}
+#banner .banner-r-b li a.app2{background: url(../images/isprite.png) -48px -57px no-repeat;}
+#banner .banner-r-b li a.app3{background: url(../images/isprite.png) -126px -57px no-repeat;}
+#banner .banner-r-b li a.app4{background: url(../images/isprite.png) -201px -57px no-repeat;}
+#banner .banner-r-b li a.app5{background: url(../images/isprite.png) -280px -57px no-repeat;}
+#banner .banner-r-b li a.app6{background: url(../images/isprite.png) -358px -57px no-repeat;}
+
+/* floor */
+#floor{margin: 63px auto 0 auto;}
+.floor1{overflow: hidden;margin-top: 35px;}
+.floor1 .f-t{height: 52px;line-height: 52px;border-bottom: 2px solid #e0aaf8;}
+.floor1 .f-t h2{padding-left: 40px;position: relative;font-size: 20px;font-weight: bold;color: #000;float: left;}
+.floor1 .f-t h2:before{content: "";position: absolute;top:13px;left: 0;width: 31px;height: 25px;background: url(../images/floor.png) 0 0 no-repeat;background-position: 0 -35px;}
+.floor1 .f-t i{background: url(../images/floor.png) 0 0 no-repeat;position: absolute;top: 13px;left: 0;width: 21px;height: 35px;padding-right: 10px;font-size: 13px;color: #fff;text-align: center;overflow: hidden;line-height: 35px;}
+
+.floor1 .f-l{width: 300px;float: left;}
+.floor1 .f-l .f-l-t{width: 300px;height: 285px;overflow: hidden;}
+.floor1 .f-l .f-l-t a img{width: 300px; height: 285px; vertical-align: middle;}
+.floor1 .f-l .f-l-b{width: 300px;height: 177px;background: #E0AAF8;border-bottom: 1px solid #eaeaea;}
+.floor1 .f-l .f-l-b ul{padding: 0 5px 0 11px;}
+.floor1 .f-l .f-l-b ul li{height: 43px;line-height: 43px;border-bottom: 1px solid#db8cff;}
+.floor1 .f-l .f-l-b ul li a{color: #fff;display: inline-block;margin-right: 4px;width: 62px;}
+.floor1 .f-l .f-l-b ul li a span{background: #d378fb;margin-right: 0;height: 26px;line-height: 26px;text-align: center;display: inline-block;vertical-align: middle;padding: 0 7px;}
+
+
+.floor1 .f-r{background: #fff;width: 900px; float: left;}
+.floor1 .f-r li{float: left;border-right: 1px solid #eaeaea;border-bottom: 1px solid #eaeaea;width: 299px;height: 230px;overflow: hidden;position: relative;}
+.floor1 .f-r li a{display: block;}
+.floor1 .f-r li a h3{color: #333;font-size: 16px;padding-top: 7px;line-height: 28px;text-align: center;}
+.floor1 .f-r li a .beizhu{color: #999;font-size: 12px;display: inherit;height: 22px;text-align: center;}
+.floor1 .f-r li a .bbj{height: 160px;width: 160px;margin: 0 auto;display: block;overflow: hidden;text-align: center;position: relative;}
+.floor1 .f-r li a .bbj img{width:100%;height: 100%;position: absolute;top: 0;left: 0;transform: top .3s;vertical-align: middle;}
+.floor1 .f-r li a .jiaqian{position: absolute;height: 33px;line-height: 33px;background: #e20016;width: 100%;}
+.floor1 .f-r li a .jiaqian .price{padding-left: 12px;height: 33px;line-height: 33px;color: #fff;font-size: 14px;font-weight: bold;text-align: center;}
+.floor1 .f-r li a .jiaqian .buy{height: 33px;line-height: 33px;color: #fff;font-size: 14px;font-weight: bold;display: inherit;text-align: center;float: right;}
+.floor1 .f-r li a .jiaqian .buy img{text-align: right;vertical-align: middle;height: 33px;line-height: 33px;}
+
+
+
+/* news */
+#news{margin-top: 35px;height: 342px;}
+#news .news-l{width: 370px;float: left;}
+#news .news-l h2{font-size: 18px;font-weight: bold;padding-left: 24px;line-height: 35px;background: url(../images/isprite.png) -495px -106px no-repeat;margin-bottom: 17px;}
+#news .news-l img{width: 370px;}
+#news .news-l h4{font-size: 16px;line-height: 26px;margin-top: 4px;font-weight: 400;}
+#news .news-l h4 a{color: #000;}
+#news .news-l span{color: #999;line-height: 17px;font-size: 12px;}
+#news .news-c{width: 364px;float: left;margin-left: 41px;}
+#news .news-c h2{font-size: 18px;font-weight: bold;padding-left: 24px;line-height: 35px;background: url(../images/isprite.png) -495px -149px no-repeat;margin-bottom: 17px;}
+#news .news-c ul{width: 364px;display: table;}
+#news .news-c ul li{width: 170px;height: 115px;float: left;margin-left: 12px;position: relative;}
+#news .news-c ul li .news-c-l{}
+#news .news-c ul li .news-c-l img{width: 170px;height: 115px;}
+#news .news-c ul li div{width: 162px;height: 26px;padding-left: 8px;position: absolute;bottom: 0;left: 0;background: url(../images/black.png) 0 0 repeat-x;font-size: 12px;line-height: 26px;}
+#news .news-c ul li div a{color: #fff;}
+#news .newscroll{height: 141px;margin-top: 10px;overflow: hidden;}
+#news .newscroll ul{width: 364px;}
+#news .newscroll ul li{width: 346px;height: 47px;padding-left: 18px;vertical-align: text-top; background: url(../images/isprite.png) -492px -235px no-repeat;}
+#news .newscroll ul li p{font-size: 14px;line-height: 20px;}
+#news .newscroll ul li p a{line-height: 17px;}
+#news .newscroll ul li i{line-height: 17px;display: table;color:#999;}
+#news .news-r{width: 399px;float: left;margin-left: 26px;}
+#news .news-r h2{font-size: 18px;padding-left: 24px;line-height: 35px;background: url(../images/isprite.png) -495px -190px no-repeat;}
+#news .news-r div{height: 265px;margin-top: 10px;overflow: hidden;}
+#news .news-r div ul{width: 399px;}
+#news .news-r div ul li{width: 381px;height: 53px;padding-left: 18px;vertical-align: text-top;background: url(../images/isprite.png) -492px -235px no-repeat;}
+#news .news-r div ul li p{line-height: 20px;font-size: 14px;}
+#news .news-r div ul li p a{}
+#news .news-r div ul li i{line-height: 17px;display: table;color: #999;}
+
+/* 信息 */
+#info{margin: 65px auto 0 auto;background-color: #f9f9f9;border-top: 1px solid#f1f1f1;}
+#info .all{width: 1171px;padding-left: 29px;height: 214px;padding-top: 49px;margin: 0 auto ;background-color: #f9f9f9f ;display: table;position: relative;}
+#info .all .info-dl{width: 166px;float: left;}
+#info .all .info-dl dt{font-size: 18px;line-height: 43px;height: 43px;}
+#info .all .info-dl dt a{color: #000;}
+#info .all .info-dl dd{line-height: 26px;height: 26px;}
+#info .all .info-dl dd a{color: #999;}
+#info .all .info-dl dd .wb{width: 20px;height: 20px;display: inline-block;vertical-align: middle;margin-right: 11px;background: url(../images/isprite.png) -306px -142px no-repeat;}
+#info .all .info-dl dd .wx{width: 20px;height: 20px;display: inline-block;vertical-align: middle;margin-right: 11px;background: url(../images/isprite.png) -338px -142px no-repeat;}
+#info .all ul{padding-top: 15px;float: right;display: table;}
+#info .all ul li{width: 90px;margin-right: 8px;float: left;}
+#info .all ul h2{line-height: 27px;text-align: center;font-size: 12px;font-weight: 400;}
+#info .all .taxi{width: 116px; height: 58px;background: url(../images/car.png) 0 0 no-repeat;position: absolute;left: 4px;top: -22px;}
+#info .all .house{width: 252px;height: 109px;background: url(../images/house.png) 0 0 no-repeat;position: absolute;right: 9px;top: -65px;}
+
+/* footer */
+#footer{background: #000;}
+#footer .main{padding-bottom: 20px;position: relative;top: 0;left: 0;}
+#footer .main ul{padding-top: 13px;}
+#footer .main ul li{display: inline;line-height: 28px;font-size: 14px;color: #fff;width: auto;}
+#footer .main ul li a{margin-left: 0;color: #fff;margin-right: 8px;}
+#footer .main p.line2{width: 300px;margin-top: 3px;font-size: 14px;color: #666;line-height: 22px;}
+#footer .main p.line2 a{color: rgb(102,102,102);}
+#footer .main p.line3{margin-top: 2px;font-size: 14px;color: #fff;}
+#footer .main p.line3 .line3-1{font-size: 14px;color: #fff;}
+#footer .main p.line3 a{font-size: 14px;color: #fff;line-height: 22px;}
+#footer .main .line4{margin-top: 2px;font-size: 14px;color: #fff;line-height: 22px;}
+#footer .main .line5{width: 300px;margin-top: 3px;font-size: 14px;color: #666;line-height: 22px;}
+#footer .main .line6{margin-top: 3px;font-size: 14px;color: #fff;line-height: 22px;}
+#footer .main .net{position: absolute;top: 122px;left: 530px;}
+#footer .main .net li{display: inline-block;width: auto;float: left;}
+
+
+
+#elevator{z-index: 5;position:fixed;top: 300px;left: 89.6px;display: block;width: 35px;overflow: hidden;}
+#elevator ul{overflow: hidden;background-color: rgba(255,255,255,.8);}
+#elevator ul li{width: 35px;height: 42px;line-height: 42px;text-align: center;cursor: pointer;overflow: hidden;border-bottom: 1px solid #e9e8ed;}
+#elevator ul li a.num{display: block;font-size: 14px;color: #625351;}
+#elevator ul li a.type{font-size: 12px;display: block;color: #625351;}
+#elevator ul li.backtop{display: inline-block;width: 35px;height: 40px;background: url(../images/isprite.png) -429px -129px no-repeat;}
+.active{background: red;}
+
+
+
+
+
+
+
