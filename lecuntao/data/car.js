@@ -58,7 +58,6 @@ class Car{
 					if(target.className == "delete"){
 						that.id = target.parentNode.getAttribute("index");
 						target.parentNode.remove();
-						console.log(that.id)
 						that.setLocal(function(i){
 							 that.lists.splice(i,1);
 						});
@@ -74,9 +73,10 @@ class Car{
 						that.setLocal(function(i){
 							 that.lists[i].num = that.value;
 						});
+						//将价钱的增加直接显示到页面上
 						target.parentNode.nextElementSibling.innerHTML = "￥"+(that.heji) * (that.value);
-						console.log(that.heji);
-						console.log(that.value);
+						// console.log(that.heji);
+						// console.log(that.value);
 					}
 				})
 				

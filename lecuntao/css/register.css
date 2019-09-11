@@ -18,37 +18,37 @@ body{background: #f8f8f8;}
 #inps .inps-c ul{}
 #inps .inps-c ul li{height: 48px;margin-bottom: 25px;}
 #inps .inps-c ul li input{float: left;height: 48px;background: #faf9f9;line-height: 48px;color: #333;font-size: 14px;font-family: "微软雅黑";border: 0;outline: none;}
-#inps .inps-c ul li.li1 p{border-color: rgb(187,187,187);border: 1px solid #bbb;float: left;width: 438px;height: 48px;line-height: 48px;background: #faf9f9;}
-#inps .inps-c ul li.li1 p input{width: 385px;}
-#inps .inps-c ul li.li1 p i{width: 13px;height: 21px;background: url(../images/login_sprite.png) -41px 0 no-repeat;margin: 14px 16px 0 17px;float: left;}
-#inps .inps-c ul li.li1 span{display: inline-block;float: left;line-height: 48px;padding-left: 10px;color: #666;font-size: 14px;}
-#inps .inps-c ul li.li1 span u{}
-#inps .inps-c ul li.li1 span u a{color: #03a9f4;}
-#inps .inps-c ul li.li2 p{border-color: rgb(187,187,187);border: 1px solid #bbb;float: left;width: 259px;height: 48px;line-height: 48px;background: #faf9f9;}
-#inps .inps-c ul li.li2 p input{width: 110px;}
-#inps .inps-c ul li.li2 p i{width: 26px;height: 20px;background: url(../images/login_sprite.png) 0 -71px no-repeat;margin: 14px 14px 0 15px;float: left;}
-#inps .inps-c ul li.li2 span{display: inline-block;float: left;padding-left: 10px;color: #666;font-size: 14px;height: 26px;padding: 8px 0 0 11px;}
-#inps .inps-c ul li.li2 span img{display: inline-block;float: left;}
-#inps .inps-c ul li.li2 a{width: 63px;display: inline-block;float: left;padding: 0 5px 0 12px;line-height: 26px;}
-#inps .inps-c ul li.li2 a em{display: block;float: right;width: 19px;height: 16px;background: url(../images/login_sprite.png) no-repeat;margin-top: 5px;}
+#inps .inps-c ul li#li1 p{border-color: rgb(187,187,187);border: 1px solid #bbb;float: left;width: 438px;height: 48px;line-height: 48px;background: #faf9f9;}
+#inps .inps-c ul li#li1 p input{width: 385px;}
+#inps .inps-c ul li#li1 p i{width: 13px;height: 21px;background: url(../images/login_sprite.png) -41px 0 no-repeat;margin: 14px 16px 0 17px;float: left;}
+#inps .inps-c ul li#li1 span{display: inline-block;float: left;line-height: 48px;padding-left: 10px;color: #666;font-size: 14px;}
+#inps .inps-c ul li#li1 span u{}
+#inps .inps-c ul li#li1 span u a{color: #03a9f4;}
+#inps .inps-c ul li#li2 p{border-color: rgb(187,187,187);border: 1px solid #bbb;float: left;width: 259px;height: 48px;line-height: 48px;background: #faf9f9;}
+#inps .inps-c ul li#li2 p input{width: 110px;}
+#inps .inps-c ul li#li2 p i{width: 26px;height: 20px;background: url(../images/login_sprite.png) 0 -71px no-repeat;margin: 14px 14px 0 15px;float: left;}
+#inps .inps-c ul li#li2 span{display: inline-block;float: left;padding-left: 10px;color: #666;font-size: 14px;height: 26px;padding: 8px 0 0 11px;}
+#inps .inps-c ul li#li2 span img{display: inline-block;float: left;}
+#inps .inps-c ul li#li2 a{width: 63px;display: inline-block;float: left;padding: 0 5px 0 12px;line-height: 26px;}
+#inps .inps-c ul li#li2 a em{display: block;float: right;width: 19px;height: 16px;background: url(../images/login_sprite.png) no-repeat;margin-top: 5px;}
 
 
-#inps .inps-c ul li.li3 p{width: 284px;border: 1px solid #bbb;float: left;height: 48px;line-height: 48px;background: #faf9f9;}
-#inps .inps-c ul li.li3 p input{width: 234px;}
-#inps .inps-c ul li.li3 p i{width: 17px;height: 17px;background: url(../images/login_sprite.png) -41px -28px no-repeat;margin: 16px 16px 0 17px;float: left;}
-#inps .inps-c ul li.li3 .yanzheng{display: inline-block;float: left;margin-left: 14px;width: 138px;height: 48px;line-height: 48px;text-align: center;border: 1px solid #bbb;cursor: pointer;}
-#inps .inps-c ul li.li4 p{width: 438px;border: 1px solid #bbb;float: left;height: 48px;line-height: 48px;background: #faf9f9;}
-#inps .inps-c ul li.li4 p input{width: 385px;}
-#inps .inps-c ul li.li4 p i{width: 19px;height: 21px;background: url(../images/login_sprite.png) 0 -45px;margin: 14px 16px 0 17px;float: left;}
-#inps .inps-c ul li.li5 p{width: 438px;border: 1px solid #bbb;float: left;height: 48px;line-height: 48px;background: #faf9f9;}
-#inps .inps-c ul li.li5 p input{width: 385px;}
-#inps .inps-c ul li.li5 p i{width: 19px;height: 21px;background: url(../images/login_sprite.png) 0 -45px;margin: 14px 16px 0 17px;float: left;}
+#inps .inps-c ul li#li3 p{width: 284px;border: 1px solid #bbb;float: left;height: 48px;line-height: 48px;background: #faf9f9;}
+#inps .inps-c ul li#li3 p input{width: 234px;}
+#inps .inps-c ul li#li3 p i{width: 17px;height: 17px;background: url(../images/login_sprite.png) -41px -28px no-repeat;margin: 16px 16px 0 17px;float: left;}
+#inps .inps-c ul li#li3 .yanzheng{display: inline-block;float: left;margin-left: 14px;width: 138px;height: 48px;line-height: 48px;text-align: center;border: 1px solid #bbb;cursor: pointer;}
+#inps .inps-c ul li#li4 p{width: 438px;border: 1px solid #bbb;float: left;height: 48px;line-height: 48px;background: #faf9f9;}
+#inps .inps-c ul li#li4 p input{width: 385px;}
+#inps .inps-c ul li#li4 p i{width: 19px;height: 21px;background: url(../images/login_sprite.png) 0 -45px;margin: 14px 16px 0 17px;float: left;}
+#inps .inps-c ul li#li5 p{width: 438px;border: 1px solid #bbb;float: left;height: 48px;line-height: 48px;background: #faf9f9;}
+#inps .inps-c ul li#li5 p input{width: 385px;}
+#inps .inps-c ul li#li5 p i{width: 19px;height: 21px;background: url(../images/login_sprite.png) 0 -45px;margin: 14px 16px 0 17px;float: left;}
 
 
 #inps .inp-b{}
 #inps .inp-b .inp-b-t{color: #000;font-size: 14px;padding: 25px 0;}
 #inps .inp-b .inp-b-t a{color: #eb0000;}
-#inps .inp-b .inp-b-m{color: #fff;line-height: 50px;width: 440px;height: 50px;background: #eb0000;color: #fff;font-size: 18px;text-align: center;display: block;}
+#inps .inp-b #btn{color: #fff;line-height: 50px;width: 440px;height: 50px;background: #eb0000;color: #fff;font-size: 18px;text-align: center;display: block;}
 
 #inps .inp-b .inp-b-b{display: block;width: 438px;height: 48px;line-height: 48px;background: #fff;border: 1px solid #03a9f4;text-align: center;color: #03a9f4;font-size: 18px;margin-top: 25px;font-weight: 700;position: relative;}
 #inps .inp-b .inp-b-b a i{position: absolute;top: 13px;display: block;width: 27px;height: 27px;background: url(../images/login_sprite.png) -87px 0 no-repeat;}
