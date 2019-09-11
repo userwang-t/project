@@ -3,6 +3,7 @@ class Car{
 				this.url = "http://localhost/lecuntao/data/list.json";
 				
 				this.tbody = document.querySelector("tbody");
+				this.tfoot = document.querySelector("tfoot");
 				
 				this.load();
 				this.addEvent();
@@ -58,14 +59,20 @@ class Car{
 					var target = e.target || e.srcElement;
 					if(target.className == "delete"){
 						that.id = target.parentNode.getAttribute("index");
-						
-						console.log(target)
 						target.parentNode.remove();
 						that.setLocal(function(i){
 							 that.lists.splice(i,1);
 						});
 					}
 				})
+				this.tfoot.addEventListener("click",function(eve){
+					var e = eve || window.event;
+					var target = e.target || e.srcElement;
+					if(target.className == "clear"){
+						target.parentNode.parentNode.parentNode.firstChild.nextSibling.nextSibling.remove();
+					}
+				})
+				
 				this.tbody.addEventListener("input",function(eve){
 					var e = eve || window.event;
 					var target = e.target || e.srcElement;
@@ -84,6 +91,7 @@ class Car{
 				})
 				
 			}
+			
 			setLocal(fn){
 				for(var i = 0;i<this.lists.length;i++){
 					if(this.lists[i].id == this.id){

@@ -90,7 +90,7 @@ margin-left: 3px; background: url(../images/isprite.png?v=860d90f686) 4px 4px no
 #message .message-m .message-m-l div{float:left;}
 #message .message-m .message-m-l #move{width: 200px;height: 200px;position: absolute;top:0x;left:0px;background-color: white;display: block;opacity:0.6;margin: 0;}
 #message .message-m .message-m-l #photo{position: absolute;left:0px;top:0px;}
-#message .message-m .message-m-l #big{border:1px solid red;width: 260px;height:260px;overflow: hidden;display: none;position: absolute;}
+#message .message-m .message-m-l #big{border:1px solid #ccc;width: 260px;height:260px;overflow: hidden;display: none;position: absolute;}
 #message .message-m .message-m-l #big img{width: 720px;height: 720px;}
 
 
