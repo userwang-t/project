@@ -12,7 +12,7 @@ body{background: #f8f8f8;}
 #register h2{float: right;font-size: 18px;padding-top: 67px;}
 #register h2 a{color: #333;}
 
-
+/* 注册表单 */
 #inps{border-top: 2px solid #eb0000;padding-top: 25px;}
 #inps .inps-c{width: 718px;margin: 0 auto;background: #fff;padding: 42px 0 50px 282px;}
 #inps .inps-c ul{}
@@ -53,7 +53,7 @@ body{background: #f8f8f8;}
 #inps .inp-b .inp-b-b{display: block;width: 438px;height: 48px;line-height: 48px;background: #fff;border: 1px solid #03a9f4;text-align: center;color: #03a9f4;font-size: 18px;margin-top: 25px;font-weight: 700;position: relative;}
 #inps .inp-b .inp-b-b a i{position: absolute;top: 13px;display: block;width: 27px;height: 27px;background: url(../images/login_sprite.png) -87px 0 no-repeat;}
 
-
+/* footer */
 #footer{text-align:center;height: 80px;margin: 0 auto;padding-top: 16px;}
 #footer .footer-t{line-height: 32px;color: #666;font-size: 14px;}
 #footer .footer-t a{font-size: 14px;color: #666;}

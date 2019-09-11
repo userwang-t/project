@@ -68,27 +68,35 @@ margin-left: 3px; background: url(../images/isprite.png?v=860d90f686) 4px 4px no
 #nav .nav-t{height: 43px;position: relative;}
 #nav .nav-t .nav-t-b{width: 212px;position: absolute;left: 0;top: 0;z-index: 3;}
 #nav .nav-t .nav-t-b dt{height: 43px;background-color: #f32613;padding-bottom: 2px;font-size: 16px;}
-#nav .nav-t .nav-t-b dt a{width: 196px; height: 43px; line-height: 43px;display: block;padding-left: 16px;color: #fff;}
+#nav .nav-t .nav-t-b dt a.caidan{width: 196px; height: 43px; line-height: 43px;display: block;padding-left: 16px;color: #fff;}
 #nav .nav-t .nav-t-b dt .menu{width: 21px;height: 43px;display: inline-block;vertical-align: middle;margin-right: 10px;background: url(../images/isprite.png) -59px 15px no-repeat;}
 #nav .nav-t .nav-t-b dd{height: 44px;background: #dd0c1d;border-bottom: 1px solid #e02e3c;position: relative;z-index: 2;}
-#nav .nav-t .nav-t-b dd a{padding-left: 16px;font-size: 13px;color: #fff;font-weight: bold;display: inline-block;height: 44px;line-height: 44px;}
-#nav .nav-t .nav-t-b dd a .left{display: inline-block;width: 22px; height: 22px;vertical-align: middle;padding-top: 12px;margin-right: 15px;float: left;}
-#nav .nav-t .nav-t-b dd a .left b{vertical-align: top;display: inline-block;width:22px;height: 22px;}
-#nav .nav-t .nav-t-b dd a .right{width: 8px; height: 8px;display: inline-block;position: absolute;right: 14px;top: 19px;background: url(../images/isprite.png) -495px -379px no-repeat;}
-#nav .nav-t .nav-t-b dd a .left .left1{background: url(../images/isprite.png) no-repeat;background-position: -108px 0px;}
-#nav .nav-t .nav-t-b dd a .left .left2{background: url(../images/isprite.png) no-repeat;background-position: -397px 0px;}
-#nav .nav-t .nav-t-b dd a .left .left3{background: url(../images/isprite.png) no-repeat;background-position: -302px -33px;}
-#nav .nav-t .nav-t-b dd a .left .left4{background: url(../images/isprite.png) no-repeat;background-position: -208px 0px;}
-#nav .nav-t .nav-t-b dd a .left .left5{background: url(../images/isprite.png) no-repeat;background-position: -154px 0px;}
-#nav .nav-t .nav-t-b dd a .left .left6{background: url(../images/isprite.png) no-repeat;background-position: -205px -34px;}
-#nav .nav-t .nav-t-b dd a .left .left7{background: url(../images/isprite.png) no-repeat;background-position: -351px 0px;}
-#nav .nav-t .nav-t-b dd a .left .left8{background: url(../images/isprite.png) no-repeat;background-position: -255px 0px;}
-#nav .nav-t .nav-t-b dd a .left .left9{background: url(../images/isprite.png) no-repeat;background-position: -158px -35px;}
-#nav .nav-t .nav-t-b dd a .left .left10{background: url(../images/isprite.png) no-repeat;background-position: -108px -36px;}
+#nav .nav-t .nav-t-b dd a.list{padding-left: 16px;font-size: 13px;color: #fff;font-weight: bold;display: inline-block;height: 44px;line-height: 44px;}
+#nav .nav-t .nav-t-b dd a.list .left{display: inline-block;width: 22px; height: 22px;vertical-align: middle;padding-top: 12px;margin-right: 15px;float: left;}
+#nav .nav-t .nav-t-b dd a.list .left b{vertical-align: top;display: inline-block;width:22px;height: 22px;}
+#nav .nav-t .nav-t-b dd a.list .right{width: 8px; height: 8px;display: inline-block;position: absolute;right: 14px;top: 19px;background: url(../images/isprite.png) -495px -379px no-repeat;}
+#nav .nav-t .nav-t-b dd a.list .left .left1{background: url(../images/isprite.png) no-repeat;background-position: -108px 0px;}
+#nav .nav-t .nav-t-b dd a.list.list.list .left .left2{background: url(../images/isprite.png) no-repeat;background-position: -397px 0px;}
+#nav .nav-t .nav-t-b dd a.list.list .left .left3{background: url(../images/isprite.png) no-repeat;background-position: -302px -33px;}
+#nav .nav-t .nav-t-b dd a.list .left .left4{background: url(../images/isprite.png) no-repeat;background-position: -208px 0px;}
+#nav .nav-t .nav-t-b dd a.list .left .left5{background: url(../images/isprite.png) no-repeat;background-position: -154px 0px;}
+#nav .nav-t .nav-t-b dd a.list .left .left6{background: url(../images/isprite.png) no-repeat;background-position: -205px -34px;}
+#nav .nav-t .nav-t-b dd a.list .left .left7{background: url(../images/isprite.png) no-repeat;background-position: -351px 0px;}
+#nav .nav-t .nav-t-b dd a.list .left .left8{background: url(../images/isprite.png) no-repeat;background-position: -255px 0px;}
+#nav .nav-t .nav-t-b dd a.list .left .left9{background: url(../images/isprite.png) no-repeat;background-position: -158px -35px;}
+#nav .nav-t .nav-t-b dd a.list .left .left10{background: url(../images/isprite.png) no-repeat;background-position: -108px -36px;}
+#nav .nav-t .nav-t-b dd .navl{width: 109px;height: 495px;display: none;position: absolute;left: 212px;background: #f9f;}
+#nav .nav-t .nav-t-b dd .navl dl{height: 493px;display: block;background: #fff;border: 1px solid #dedede;border-left: none;}
+#nav .nav-t .nav-t-b dd .navl dl dt{width: 108px;line-height: 43px;height: 43px;text-align: center;background-color: #fff;font-size: 14px;}
+#nav .nav-t .nav-t-b dd .navl dl dt:hover{background: #f32613;}
+#nav .nav-t .nav-t-b dd .navl dl dt a{color: #333;display: block;width: 108px;}
+
+
 #nav .nav-r{width: 960px;float: left;margin-left: 216px;}
 #nav .nav-r li{float: left;line-height: 43px;height: 43px;font-size: 16px;padding: 0 18px;}
 #nav .nav-r li .index{color: #e60012;}
 #nav .nav-r li a{color: #000;}
+#nav .nav-r li a:hover{color: #e60012;}
 
 
 /* banner */
@@ -229,7 +237,7 @@ margin-left: 3px; background: url(../images/isprite.png?v=860d90f686) 4px 4px no
 #footer .main .net li{display: inline-block;width: auto;float: left;}
 
 
-
+/* 楼层效果 */
 #elevator{z-index: 5;position:fixed;top: 300px;left: 89.6px;display: block;width: 35px;overflow: hidden;}
 #elevator ul{overflow: hidden;background-color: rgba(255,255,255,.8);}
 #elevator ul li{width: 35px;height: 42px;line-height: 42px;text-align: center;cursor: pointer;overflow: hidden;border-bottom: 1px solid #e9e8ed;}

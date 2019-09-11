@@ -1,9 +1,10 @@
-$(window).scroll(function(){
-    if($(document).scrollTop()>470 && $(document).scrollTop()<3200){
-        $("#elevator").show();
-    }else{
-        $("#elevator").hide();
-    }
+	$(window).scroll(function(){
+		if($(document).scrollTop()>470 && $(document).scrollTop()<3200){
+			$("#elevator").show();
+		}else{
+			$("#elevator").hide();
+		}
+	})
 	$(".eleva").children("li.flo").click(function(){
 		//console.log($(".floor1").eq($(this).index())[0])
 		//console.log($(".floor1").eq($(this).index())[0].offsetTop)
@@ -19,4 +20,3 @@ $(window).scroll(function(){
 			scrollTop:top
 		})
 	})
-})

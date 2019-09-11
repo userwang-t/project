@@ -4,7 +4,7 @@ body{background: #f8f8f8;}
 .margin{ width:1000px; margin:0 auto;}
 
 
-/* 用户登陆 */
+/* top */
 #login{height: 97px;margin: 0 auto;}
 #login p{float: left;height: 73px;line-height: 73px;padding-top: 14px;}
 #login p span{display: inline-block;float: left;height: 73px;padding-right: 21px;}
@@ -15,21 +15,41 @@ body{background: #f8f8f8;}
 #login{border-bottom: 2px solid #eb0000;}
 
 
-
+/* 登陆表单 */
 #main{width: 100%;height: 655px;background: url(../images/main.jpg) no-repeat center;}
+#main .main-login{width: 400px;display: table;float: right;margin-top: 74px;}
+#main .main-login h3{position: relative;height: 55px;line-height: 55px;color: #fff;font-size: 18px;padding-left: 21px;background: url(../images/bg.png) repeat;}
+#main .main-login h3 i{position: absolute;top: 0;right: 0;display: block;width: 53px;height: 55px;background: url(../images/erweima.png) no-repeat;cursor: pointer;}
+#main .main-login .main-login-inp{width: 100%;background: #fff;display: table;padding-bottom: 0px;}
+#main .main-login .main-login-inp ul{padding: 20px 20px 0;}
+#main .main-login .main-login-inp ul li{margin-bottom: 20px;display:table;width: 100%;}
+#main .main-login .main-login-inp ul li.li1 p{width: 358px;height: 40px;border: 1px solid #bbb;background: #faf9f9;}
+#main .main-login .main-login-inp ul li.li2 p{width: 358px;height: 40px;border: 1px solid #bbb;background: #faf9f9;}
+#main .main-login .main-login-inp ul li.li1 p i{width: 21px;height: 20px;background: url(../images/login_sprite.png) 0 -20px no-repeat;margin: 9px 14px 0 15px;float: left;}
+#main .main-login .main-login-inp ul li.li1 p input{float: left;width: 308px;height: 40px;background: #FAF9F9;line-height: 40px;border: 0;color: #333;font-size: 14px;outline: none;}
+#main .main-login .main-login-inp ul li.li2 p i{width: 19px;height: 21px;background: url(../images/login_sprite.png) 0 -45px no-repeat;margin: 9px 14px 0 15px;float: left;}
+#main .main-login .main-login-inp ul li.li2 p input{float: left;width: 308px;height: 40px;background: #FAF9F9;line-height: 40px;border: 0;color: #333;font-size: 14px;outline: none;}}
+#main .main-login .main-login-inp ul li.li3{margin-bottom: 20px;display:table;width: 100%;}
+#main .main-login .main-login-inp ul li.li3 a{float: right;color: #ff6600;font-size: 14px;}
+#main .main-login .main-login-inp ul li.li3 input{width: 14px;height: 14px;display: block;float: left;margin: 3px 5px 0 0;}
+#main .main-login .main-login-inp ul li.li3 i{color: #666;font-size: 14px;}
+#main .main-login .main-login-inp ul li.li4 p{border: 1px solid #bbb;float: left;width: 169px;height: 40px;line-height: 40px;background: #faf9f9;}
+#main .main-login .main-login-inp ul li.li4 p input{width: 110px;float: left;height:40px;background: #faf9f9;line-height:40px;border: 0;color: #333;font-size: 14px;outline: none;}
+#main .main-login .main-login-inp ul li.li4 p i{width: 26px;height: 20px;background: url(../images/login_sprite.png) 0 -71px no-repeat;margin: 14px 14px 0 15px;float: left;}
+#main .main-login .main-login-inp ul li.li4 span{display: inline-block;float: left;padding-left: 10px;color: #666;font-size: 14px;height: 26px;padding: 8px 0 0 11px;}
+#main .main-login .main-login-inp ul li.li4 span img{display: inline-block;float: left;}
+#main .main-login .main-login-inp ul li.li4 a{width: 63px;display: inline-block;float: left;padding: 0 5px 0 12px;line-height: 26px;}
+#main .main-login .main-login-inp ul li.li4 a em{display: block;float: right;width: 19px;height: 16px;background: url(../images/login_sprite.png) no-repeat;margin-top: 5px;}
+#main .main-login .main-login-inp ul li.li5 input{width: 360px;height: 42px;overflow: hidden;text-align: center;background: #eb0000;border: 0;color: #fff;font: 18px/32px "微软雅黑";cursor: pointer;}
+#main .main-login .main-login-inp ul li.li6 span{font-size: 14px;}
+#main .main-login .main-login-inp ul li.li6 span a{color: #ff6600;font-size: 14px;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer */
+#footer{text-align:center;height: 80px;margin: 0 auto;padding-top: 16px;}
+#footer .footer-t{line-height: 32px;color: #666;font-size: 14px;}
+#footer .footer-t a{font-size: 14px;color: #666;}
+#footer p{font-size: 14px;color: #666;line-height: 22px;}
+#footer span{text-align: center;}
 
 
