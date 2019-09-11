@@ -41,7 +41,7 @@ class Car{
 										<td class="ls">￥${this.res[i].price}</td>
 										<td class="sl"><input type="number" value="${this.lists[j].num}" class="num" min=1></td>
 										<td class="hj" heji="${this.res[i].price}">￥${sum}</td>
-										<td class="cz delete">删除</td>
+										<td class="delete">删除</td>
 									</tr>`
 						}
 						
@@ -53,10 +53,13 @@ class Car{
 				addEvent(){
 				var that = this;
 				this.tbody.addEventListener("click",function(eve){
+					
 					var e = eve || window.event;
 					var target = e.target || e.srcElement;
 					if(target.className == "delete"){
 						that.id = target.parentNode.getAttribute("index");
+						
+						console.log(target)
 						target.parentNode.remove();
 						that.setLocal(function(i){
 							 that.lists.splice(i,1);

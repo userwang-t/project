@@ -78,25 +78,10 @@ margin-left: 3px; background: url(../images/isprite.png?v=860d90f686) 4px 4px no
 #car thead tr{width: 100%;border-bottom: 1px solid #ddd;text-align: center;height: 40px;font: 14px/40px "";color: #666;}
 #car thead tr th.check{float: left;} 
 #car thead tr th.qx{float: left;} 
-#car thead tr th.sp{} 
-#car thead tr th.ls{} 
-#car thead tr th.sl{} 
-#car thead tr th.hj{} 
-#car thead tr th.cz{} 
-
-#car tbody{}
-#car tbody tr{}
-#car tbody tr td.sel{}
 #car tbody tr td img{width: 75px;height: 75px;border: 1px solid #000;}
 #car thead tr td.sp{} 
 #car thead tr td.sp span{width: 250px;font-size: 14px;display: inline-block;}
 #car thead tr td.sp a{color: #666;}
-#car thead tr td.ls{} 
-#car thead tr td.sl{} 
-#car thead tr td.hj{} 
-#car thead tr td.cz{}
-
-
 
 
 
