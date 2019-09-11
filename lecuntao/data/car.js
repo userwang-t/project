@@ -7,7 +7,6 @@ class Car{
 				this.load();
 				this.addEvent();
 				
-				
 			}
 			load(){
 				var that = this;
@@ -22,7 +21,7 @@ class Car{
 			}
 			getLocal(){
 				this.lists = localStorage.getItem("lists") ? JSON.parse(localStorage.getItem("lists")):[];
-				console.log(this.lists)
+				//console.log(this.lists)
 				this.display();
 			}
 			display(){
@@ -32,18 +31,20 @@ class Car{
 						if(this.res[i].goodsId == this.lists[j].id){
 							//将每件商品的总价计算出
 							var sum = this.res[i].price*this.lists[j].num
-							console.log(this.res[i].price)
-							//console.log(this.lists[j].num)
+							// console.log(this.res[i].price)
+							// console.log(this.lists[j].id)
+							//console.log(this.res[i].goodsId)
 							str +=`<tr index = "${this.res[i].goodsId}">
 										<td class="sel"><input type="checkbox" /></td>
 										<td class="tp"><img src="${this.res[i].url}"</td>
 										<td class="sp"><span><a>${this.res[i].name}</a></span></td>
 										<td class="ls">￥${this.res[i].price}</td>
 										<td class="sl"><input type="number" value="${this.lists[j].num}" class="num" min=1></td>
-										<td class="hj">￥${sum}</td>
-										<td class="cz">删除</td>
+										<td class="hj" heji="${this.res[i].price}">￥${sum}</td>
+										<td class="cz delete">删除</td>
 									</tr>`
 						}
+						
 					}
 				}
 				//console.log(str);
@@ -57,9 +58,8 @@ class Car{
 					if(target.className == "delete"){
 						that.id = target.parentNode.getAttribute("index");
 						target.parentNode.remove();
-						//删除localstroage数组里面的其中一个数据
+						console.log(that.id)
 						that.setLocal(function(i){
-							//从i开始删，删一个
 							 that.lists.splice(i,1);
 						});
 					}
@@ -70,11 +70,13 @@ class Car{
 					if(target.className == "num"){
 						that.id = target.parentNode.parentNode.getAttribute("index");
 						that.value = target.value;
-						
+						that.heji = target.parentNode.nextElementSibling.getAttribute("heji");
 						that.setLocal(function(i){
 							 that.lists[i].num = that.value;
 						});
-						
+						target.parentNode.nextElementSibling.innerHTML = "￥"+(that.heji) * (that.value);
+						console.log(that.heji);
+						console.log(that.value);
 					}
 				})
 				
@@ -89,10 +91,5 @@ class Car{
 			}
 			
 		}
-			
-			
-			
-			
-			
 			
 new Car();
